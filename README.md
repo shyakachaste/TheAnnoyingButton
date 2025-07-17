@@ -1,2 +1,2 @@
-# TheAnnoyingButton-
+# TheAnnoyingButton
 Click the button and watch it slowly lose its mind...
