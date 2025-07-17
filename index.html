@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Annoying Button 🎭</title>
+    <meta name="description" content="Click the button and watch it slowly lose its mind..." />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Background Effects -->
+      <div class="background-overlay"></div>
+      
+      <!-- Main Container -->
+      <div class="main-container" id="mainContainer">
+        <!-- Title -->
+        <div class="title-section">
+          <h1 class="main-title">The Annoying Button 🎭</h1>
+          <p class="subtitle">Click the button and watch it slowly lose its mind...</p>
+        </div>
+
+        <!-- Click Counter -->
+        <div class="counter-section">
+          <div class="counter-display">
+            <span id="clickCounter">Clicks: 0 🎯</span>
+          </div>
+        </div>
+
+        <!-- The Button -->
+        <button id="annoyingButton" class="annoying-button">
+          Click me! 😊
+        </button>
+
+        <!-- Meltdown Animation -->
+        <div id="meltdownScreen" class="meltdown-screen hidden">
+          <div class="meltdown-content">
+            <div class="meltdown-emoji">💥</div>
+            <h2 class="meltdown-title">SYSTEM OVERLOAD!</h2>
+            <p class="meltdown-text">Button.exe has stopped working...</p>
+          </div>
+        </div>
+
+        <!-- Death Screen -->
+        <div id="deathScreen" class="death-screen hidden">
+          <div class="death-emoji">💀</div>
+          <h2 class="death-title">RIP Button</h2>
+          <p class="death-text">You clicked it to death. Are you happy now? 😢</p>
+          <button id="resetButton" class="reset-button">
+            Resurrect Button 🔄
+          </button>
+        </div>
+
+        <!-- Fun Facts -->
+        <div class="fun-facts">
+          <div class="fun-facts-content">
+            <p>💡 Fun Fact: This button has feelings too!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating Emojis Container -->
+      <div id="floatingEmojis" class="floating-emojis"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
